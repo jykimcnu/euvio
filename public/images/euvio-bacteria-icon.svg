@@ -1,0 +1,21 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Postbiotic bacteria icon</title>
+  <desc id="desc">Stylized bacteria illustration in a soft rose color palette.</desc>
+  <defs>
+    <linearGradient id="body-gradient" x1="30" y1="26" x2="100" y2="106" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD6DE"/>
+      <stop offset="1" stop-color="#F3AAB7"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M46 22c-12.15 0-22 9.85-22 22 0 5.52 2.04 10.55 5.41 14.39-3.85 3.69-6.25 8.88-6.25 14.63 0 11.23 9.11 20.34 20.34 20.34h34.66c14.82 0 26.84-12.02 26.84-26.84S92.98 39.68 78.16 39.68h-.53C74.72 29.54 61.35 22 46 22Z" fill="url(#body-gradient)"/>
+    <path d="M46 22c-12.15 0-22 9.85-22 22 0 5.52 2.04 10.55 5.41 14.39-3.85 3.69-6.25 8.88-6.25 14.63 0 11.23 9.11 20.34 20.34 20.34h34.66c14.82 0 26.84-12.02 26.84-26.84S92.98 39.68 78.16 39.68h-.53C74.72 29.54 61.35 22 46 22Z" stroke="#FFD9E1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M38 17l-5-8M60 16V8M83 26l6-8M18 61H8M26 89l-7 7M56 100v10M86 95l7 8M109 66h10" stroke="#FFD9E1" stroke-width="5" stroke-linecap="round"/>
+    <path d="M46 51c0-4.42 3.58-8 8-8h12c4.42 0 8 3.58 8 8v0c0 4.42-3.58 8-8 8H54c-4.42 0-8-3.58-8-8v0Z" fill="#8E4860" fill-opacity="0.18"/>
+    <circle cx="47" cy="72" r="4" fill="#8E4860"/>
+    <circle cx="63" cy="73" r="5" fill="#8E4860" fill-opacity="0.9"/>
+    <circle cx="79" cy="70" r="4" fill="#8E4860" fill-opacity="0.82"/>
+    <circle cx="57" cy="53" r="4" fill="#8E4860" fill-opacity="0.75"/>
+    <circle cx="74" cy="52" r="3.5" fill="#8E4860" fill-opacity="0.72"/>
+  </g>
+</svg>

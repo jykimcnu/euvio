@@ -1,0 +1,26 @@
+<svg width="1062" height="474" viewBox="0 0 1062 474" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">EuVio HealthCare logo</title>
+  <desc id="desc">Rounded rectangle logo with EuVio HealthCare text and the tagline Technology for Better Minds and Bodies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="44" y1="24" x2="988" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8EEF3" />
+      <stop offset="0.28" stop-color="#FBF7F9" />
+      <stop offset="0.66" stop-color="#F7F8FC" />
+      <stop offset="1" stop-color="#F5F7FB" />
+    </linearGradient>
+    <radialGradient id="accent" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(170 80) rotate(18) scale(520 316)">
+      <stop stop-color="#F3B9C7" stop-opacity="0.92"/>
+      <stop offset="0.42" stop-color="#F4C6D1" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#F3C7D1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="6" y="6" width="1050" height="462" rx="74" fill="url(#bg)" stroke="#222634" stroke-width="4"/>
+  <rect x="6" y="6" width="1050" height="462" rx="74" fill="url(#accent)"/>
+  <g text-anchor="middle">
+    <text x="531" y="218" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="-3.8">
+      <tspan fill="#111827" font-size="118">EuVio</tspan>
+      <tspan dx="12" fill="#D74A5F" font-size="114">HealthCare</tspan>
+    </text>
+    <text x="531" y="306" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="400" letter-spacing="-0.4">Healthcare for Better Minds and Bodies</text>
+  </g>
+</svg>
