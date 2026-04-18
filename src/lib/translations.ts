@@ -18,7 +18,7 @@ export const translations = {
       description: "EuVio pioneers next-generation psychobiotics to bridge the gap in mental health care with microbiome-based solutions."
     },
     vision: {
-      title: "Our Vision",
+      title: "Vision",
       subtitle: "Beyond the Gut, Into the Mind!",
       coreVision: "Science Connecting Gut and Brain: A Great Journey to Restoring the Wholeness of Human Life.",
       missionStatement: "We unlock the secrets of brain health through the invisible power of the microbiome. EuVio's innovative biotechnology will be a lifelong partner in fundamentally healing mental distress and restoring daily happiness for people worldwide.",

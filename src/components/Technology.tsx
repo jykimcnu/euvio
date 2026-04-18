@@ -158,7 +158,16 @@ export default function Technology() {
                     </div>
                   </div>
                 </div>
-                <p className="max-w-none text-[1.08rem] leading-[1.65] text-slate-100 md:text-left md:text-[1.18rem] md:leading-[1.55] md:whitespace-nowrap">{isKorean ? "장에서 시작된 신호가 장-뇌 축을 따라 전달" : "Signals begin in the gut and travel through the axis."}</p>
+                <p className="max-w-none text-[1.08rem] leading-[1.65] text-slate-100 md:text-left md:text-[1.18rem] md:leading-[1.55] md:whitespace-nowrap">
+                  {isKorean ? (
+                    "장에서 시작된 신호가 장-뇌 축을 따라 전달"
+                  ) : (
+                    <>
+                      <span className="block">Signals begin in the gut</span>
+                      <span className="block">and travel through the axis.</span>
+                    </>
+                  )}
+                </p>
               </div>
 
               <div className="flex items-center justify-center md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2">
