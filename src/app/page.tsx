@@ -8,7 +8,7 @@ import Vision from "@/components/Vision";
 
 export default function Home() {
   return (
-    <main className="pt-20">
+    <main className="pt-24 md:pt-28">
       <Hero />
       <Vision />
       <Technology />

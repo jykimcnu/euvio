@@ -21,13 +21,45 @@ html {
 }
 
 body {
+  min-width: 0;
   background: linear-gradient(180deg, #fbfdff 0%, #f7fbff 100%);
   color: var(--foreground);
-  font-family: var(--font-inter), 'Pretendard', sans-serif;
+  font-family: var(--font-inter), "Pretendard", sans-serif;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html:lang(ko) body {
   word-break: keep-all;
   overflow-wrap: break-word;
+}
+
+html:lang(en) body {
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+@media (min-width: 768px) {
+  section[id] {
+    scroll-margin-top: 112px;
+  }
 }

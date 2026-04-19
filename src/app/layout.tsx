@@ -12,6 +12,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "EuVio Inc.",
   description: "Deep-Tech Microbiome Platform",
+  viewport: "width=device-width, initial-scale=1", // 🔥 모바일 필수
 };
 
 export default function RootLayout({
@@ -21,10 +22,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={`${inter.variable} antialiased bg-slate-50 text-slate-900`}>
+      <body
+        className={`${inter.variable} antialiased bg-slate-50 text-slate-900 overflow-x-hidden`}
+      >
         <LanguageProvider>
           <Navbar />
-          {children}
+          <div className="pt-24 md:pt-28">
+            {children}
+          </div>
         </LanguageProvider>
       </body>
     </html>
